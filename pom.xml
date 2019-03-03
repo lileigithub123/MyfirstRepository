@@ -293,10 +293,10 @@
 
 	<build>
 		<resources>
-			<resource>
+			<!-- <resource>
 				<directory>src/main/resources</directory>
 				<filtering>false</filtering>
-				<!-- 打包时排除配置文件 -->
+				打包时排除配置文件
 				<excludes>
 					<exclude>dev/*.*</exclude>
 					<exclude>prod/*.*</exclude>
@@ -316,7 +316,7 @@
 					<include>**/*.tld</include>
 				</includes>
 				<filtering>false</filtering>
-			</resource>
+			</resource> -->
 		</resources>
         <!-- <pluginManagement>      -->
 		<plugins>
@@ -325,7 +325,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-			<plugin>
+			<!-- <plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
 					<appendAssemblyId>false</appendAssemblyId>
@@ -342,7 +342,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 			
 			<!-- <plugin>
 				<groupId>org.mybatis.generator</groupId>
@@ -396,10 +396,10 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		<repository>
+		<!-- <repository>
 			<id>nexus-releases</id>
 			<name>Nexus Release Repository</name>
 			<url>http://10.1.239.42:8081/nexus/repository/maven-public/</url>
-		</repository>
+		</repository> -->
 	</repositories>
 </project>

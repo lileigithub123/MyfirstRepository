@@ -253,11 +253,11 @@
 		    <version>3.1.0</version>
 		</dependency>
 		
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.openunion</groupId>
 			<artifactId>common-security</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency> -->
 		<!-- emoji -->
 		<dependency>
 		    <groupId>com.github.binarywang</groupId>

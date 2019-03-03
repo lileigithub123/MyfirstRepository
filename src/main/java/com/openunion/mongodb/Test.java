@@ -6,8 +6,10 @@ import static java.util.Arrays.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Consumer;
 
 import org.bson.Document;
@@ -16,8 +18,6 @@ import org.bson.codecs.configuration.CodecRegistry;
 import org.bson.codecs.pojo.PojoCodecProvider;
 import org.bson.conversions.Bson;
 
-import com.github.andrewoma.dexx.collection.HashMap;
-import com.github.andrewoma.dexx.collection.Map;
 import com.google.common.collect.Lists;
 import com.mongodb.Block;
 import com.mongodb.MongoClientSettings;
